@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 
-webchat {
+#webchat {
   height: 100%;
   width: 100%;
 }
@@ -25,7 +25,7 @@ webchat[watermark="true"] [role="complementary"] ul[role="list"]::after {
   text-align: right;
 }
 
-webchat[watermark="true"] .webchat__scrollToEndButton {
+#webchat[watermark="true"] .webchat__scrollToEndButton {
   bottom: 32px;
   left: 50%;
   right: unset;
